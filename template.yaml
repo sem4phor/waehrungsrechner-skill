@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Gets the current currencies from European Central Bank over Fixer.io API
+Resources:
+  alexaskillkitsdkschlachthofwiesbadenskill:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs6.10
+      CodeUri: .
+      Description: Gets the current currencies from European Central Bank over Fixer.io API
+      MemorySize: 128
+      Timeout: 7
+      Policies: []

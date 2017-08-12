@@ -1,0 +1,10 @@
+{
+  "name": "alexa-skill-kit-sdk-waehrungsrechnerskill",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "1.0.10",
+    "axios": "0.16.2"
+  }
+}
